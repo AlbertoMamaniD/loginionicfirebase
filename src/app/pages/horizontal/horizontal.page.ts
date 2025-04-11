@@ -1,7 +1,7 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 import { CommonModule } from '@angular/common';
-import { MealsService } from '../../services/meals.service';
+import { MealsService } from '../../core/services/meals.service';
 import { Meal, MealResponse } from '../../interfaces/meal.interface';
 
 @Component({

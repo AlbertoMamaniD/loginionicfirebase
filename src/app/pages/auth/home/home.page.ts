@@ -1,6 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonButtons, IonIcon, IonCard, IonCardTitle, IonCardHeader, IonItem, IonCardContent, IonLabel, IonList } from '@ionic/angular/standalone';
-import { AuthService } from '../services/auth.service';
+import { AuthService } from '../../../core/services/auth.service';
 import { Router } from '@angular/router';
 import { User } from 'firebase/auth';
 import { CommonModule } from '@angular/common';
